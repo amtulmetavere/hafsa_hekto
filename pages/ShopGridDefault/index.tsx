@@ -2,7 +2,7 @@
 
 
 import React, { useState } from 'react';
-import Image from 'next/image';
+
 import SGD1 from '../../public/SGD1.png';
 import SGD2 from '../../public/SGD2.png';
 import SGD3 from '../../public/SGD3.png';

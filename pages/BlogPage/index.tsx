@@ -1,7 +1,7 @@
 "use client"; // Marks this as a Client Component
 
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from "next/image";
 import blog1 from "../../public/blogpage1.jpeg"
 import blog2 from "../../public/blogpage2.jpeg"
@@ -21,26 +21,6 @@ import Footer from "../Footer";
 import Navbar from "../navbar";
 
 
-// const blogData = [
-//     {
-//       title: "Mauris at orci non vulputate diam tincidunt nec",
-//       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sapien lectus, sed sollicitudin velit dictum ut. Curabitur...",
-//       imageUrl: "/_next/image?url=%2Fblog%2Fblog1.png",
-//       date: "Aug 09 2023",
-//     },
-//     {
-//       title: "Aenean vitae in aliquam ultrices lectus. Etiam.",
-//       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sapien lectus, sed sollicitudin velit dictum ut. Curabitur...",
-//       imageUrl: "/_next/image?url=%2Fblog%2Fblog2.png",
-//       date: "Aug 09 2023",
-//     },
-//     {
-//       title: "Sit nam congue feugiat nisl, mauris amet nisi.",
-//       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sapien lectus, sed sollicitudin velit dictum ut. Curabitur...",
-//       imageUrl: "/_next/image?url=%2Fblog%2Fblog3.png",
-//       date: "Aug 09 2023",
-//     },
-//   ];
 
 
 const BlogPage = () => {
